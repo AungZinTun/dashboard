@@ -107,17 +107,17 @@
                   <li class="dropdown-menu-footer"><a href="javascript:void(0)" class="dropdown-item text-muted text-xs-center">Read all messages</a></li>
                 </ul>
               </li>
-              <li class="dropdown dropdown-user nav-item"><a href="#" data-toggle="dropdown" class="dropdown-toggle nav-link dropdown-user-link"><span class="avatar avatar-online"><img src="../../app-assets/images/logo/mohs-50.png" alt="avatar"><i></i></span><span class="user-name"> {{ Auth::user()->name }} </span></a>
+              <li class="dropdown dropdown-user nav-item"><a href="#" data-toggle="dropdown" class="dropdown-toggle nav-link dropdown-user-link"><span class="avatar avatar-online"><img src="../../app-assets/images/logo/mohs-50.png" alt="avatar"><i></i></span><span class="user-name"> User 1 </span></a>
                 <div class="dropdown-menu dropdown-menu-right"><a href="#" class="dropdown-item"><i class="icon-head"></i> Edit Profile</a><a href="#" class="dropdown-item"><i class="icon-mail6"></i> My Inbox</a><a href="#" class="dropdown-item"><i class="icon-clipboard2"></i> Task</a><a href="#" class="dropdown-item"><i class="icon-calendar5"></i> Calender</a>
                   <div class="dropdown-divider"></div>
                                 <div class="dropdown-item" aria-labelledby="navbarDropdown">
-                                    <a class="dropdown-item" href="{{ route('logout') }}"
+                                    <a class="dropdown-item" href="#"
                                        onclick="event.preventDefault();
                                                      document.getElementById('logout-form').submit();">
-                                      <i class="icon-power3"></i>  {{ __('Logout') }}
+                                      <i class="icon-power3"></i> 
                                            </a>
 
-                                        <form id="logout-form" action="{{ route('logout') }}" method="POST" style="display: none;">
+                                        <form id="logout-form" action="#" method="POST" style="display: none;">
                                             @csrf
                                         </form>
                                 </div>
