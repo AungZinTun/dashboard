@@ -20,6 +20,6 @@
 Route::get('home', 'HomeController@index')->name('home');
 
 
-Route::resource('events', 'EventController');
+// Route::resource('events', 'EventController');
 
-Route::resource('roles', 'RoleController');
+// Route::resource('roles', 'RoleController');
